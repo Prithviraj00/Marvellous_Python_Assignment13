@@ -16,11 +16,6 @@ class Arithmetic:
         return False
     
     def SumFactors(self):
-        # # for loop logic
-        # ans = 0
-        # for item in self.getFactors():
-        #     ans += item
-        # return ans
         return sum(self.getFactors())
         
     def getFactors(self):
